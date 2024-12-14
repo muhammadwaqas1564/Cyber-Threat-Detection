@@ -1,0 +1,119 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    height: 100vh;
+    background-image: url('./background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    color: white;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+
+}
+
+h1 {
+    color: white;
+    margin-block: 3em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.card p {
+    margin: 0 0 15px 0;
+    color: #555;
+}
+
+.button {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    border: 2px solid #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+input[type="text"], input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result, .file-data {
+    margin-top: 20px;
+    text-align: left;
+}

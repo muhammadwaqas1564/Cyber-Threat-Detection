@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Detection</title>
+    <link rel="stylesheet" href="/static/phishing-styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/" class="nav-link">Home</a>
+            <a href="/phishing" class="nav-link">Phishing Detection</a>
+            <a href="/malware" class="nav-link">Malware Detection</a>
+            <a href="/intrusion" class="nav-link">Intrusion Detection</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Phishing Detection</h1>
+        <form id='phishing-form'>
+            <label for="url">Enter URL to check for phishing attack:</label>
+            <input type="text" name="url" required placeholder="Enter URL">
+            <button type="submit">Check</button>
+        </form>
+        <div id="result">
+        </div>
+    </div>
+
+    <script src="./../static/controllers/phishingController.js"></script>
+</body>
+
+</html>
